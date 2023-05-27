@@ -12,6 +12,7 @@
     "vite": "^4.3.2"
   },
   "dependencies": {
-    "navigo": "^8.11.1"
+    "navigo": "^8.11.1",
+    "vite-plugin-static-copy": "^0.15.0"
   }
 }

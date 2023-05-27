@@ -1,5 +1,6 @@
 import { defineConfig } from "vite";
 import path from "path";
+import { viteStaticCopy } from "vite-plugin-static-copy";
 
 export default defineConfig({
     build: {
@@ -9,8 +10,13 @@ export default defineConfig({
             input: {
                 main: path.resolve(__dirname, "./index.html"),
                 css: path.resolve(__dirname, "/assets/css/style.css"),
-                img: path.resolve(__filename, "/assets/img")
             },
         },
     },
+    plugins: [
+        viteStaticCopy({
+            include: ['**/*.png'],
+            outputDir: 'dist/assets/img'
+        })
+    ]
 });
