@@ -90,7 +90,7 @@ html {
 .home {
   position: relative;
   justify-content: center;
-  background: url(img/bkg-1.jpg);
+  background: url(/img/bkg-1.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
