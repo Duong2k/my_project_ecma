@@ -1,7 +1,6 @@
 import Homepage from "./src/page/homepage";
 import Navigo from "navigo";
 import './assets/css/style.css'
-import './assets/img'
 const router = new Navigo("/", { linkSelector: "a" });
 const app = document.querySelector("#app");
 
