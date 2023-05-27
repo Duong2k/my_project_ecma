@@ -8,7 +8,7 @@ export default defineConfig({
         rollupOptions: {
             input: {
                 main: path.resolve(__dirname, "./index.html"),
-                css: path.resolve(__dirname, "assignment/assets/css/style.css"),
+                css: path.resolve(__dirname, "/assets/css/style.css"),
             },
         },
     },
