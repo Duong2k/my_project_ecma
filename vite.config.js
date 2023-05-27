@@ -15,8 +15,12 @@ export default defineConfig({
     },
     plugins: [
         viteStaticCopy({
-            include: ['**/*.png'],
-            outputDir: 'dist/assets/img'
+            targets: [
+                {
+                    include: ['**/*.png'],
+                    src: 'assets/img'
+                }
+            ]
         })
     ]
 });
