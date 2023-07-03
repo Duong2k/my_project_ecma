@@ -22,7 +22,7 @@ const Portfolio = () => {
                 </div>
             </div>
             <div class="portfolio-box">
-                <img src="img/port3.jpg" alt="">
+                <img src="img/port5.jpg" alt="">
                 <div class="portfolio-layer">
                     <h4>Dự án</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta fugiat delectus minima expedita
