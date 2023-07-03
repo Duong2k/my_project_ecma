@@ -4,7 +4,7 @@ const Portfolio = () => {
         <h2 class="heading">All <span>Project</span></h2>
         <div class="portfolio-container">
             <div class="portfolio-box">
-                <img src="" alt="">
+                <img src="img/port2.jpg" alt="">
                 <div class="portfolio-layer">
                     <h4>Dự án mẫu</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta fugiat delectus minima expedita
@@ -22,7 +22,7 @@ const Portfolio = () => {
                 </div>
             </div>
             <div class="portfolio-box">
-                <img src="" alt="">
+                <img src="img/port3.jpg" alt="">
                 <div class="portfolio-layer">
                     <h4>Dự án</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta fugiat delectus minima expedita
