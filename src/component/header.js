@@ -10,7 +10,7 @@ const Header = () => {
         <a href="#portfolio" style="--1:4">Portfolio</a>
         <a href="#contact" style="--1:5">Contact</a>
     </nav>
-</header>
+    </header>
     `
 };
 export default Header;

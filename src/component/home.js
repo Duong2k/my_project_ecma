@@ -7,7 +7,7 @@ const Home = () => {
         <h1>Dang Duong</h1>
         <h3>And I'm a <span class="text">Frontend Developer</span></h3>
         <p>I'm a final year student majoring Web Design and have less than 1 year experience
-            <br>I can create websites using technologies like HTML, CSS, Javascript and more....
+            <br>I can create websites using technologies like HTML, CSS, Javascript and more...
         </p>
         <div class="home-sci">
             <a href="" style="--1:6"><i class='bx bxl-facebook'></i></a>

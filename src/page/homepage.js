@@ -5,6 +5,8 @@ import Contact from "../component/contact";
 import Footer from "../component/footer";
 import Portfolio from "../component/portfolio";
 import Service from "../component/service";
+
+
 const Homepage = () => {
     return `
         ${Header()}
